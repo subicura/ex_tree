@@ -281,3 +281,5 @@ module ExTree
     end
   end
 end
+
+ActiveRecord::Base.class_eval { include ExTree::ActiveRecordMethods }
