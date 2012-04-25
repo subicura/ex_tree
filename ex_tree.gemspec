@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = "ex_tree"
-  s.version = "0.1.0"
+  s.version = "0.1.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["subicura"]
@@ -20,7 +20,7 @@ Gem::Specification.new do |s|
     "README",
     "Rakefile",
     "VERSION",
-    "init.rb",
+    "ex_tree.gemspec",
     "lib/ex_tree.rb"
   ]
   s.homepage = "http://github.com/subicura/ex_tree"
